@@ -223,3 +223,47 @@ body {
 .container.active .toggle-right{
     transform: translateX(200%);
 }
+@media (max-width: 767px) {
+body {
+    height: 100vh;
+}
+.container {
+    width: 100%;
+    min-height: 400px;
+    padding: 20px;
+}
+.container p {
+    font-size: 8px;
+    line-height: 12px;
+}
+.container span {
+    font-size: 8px;
+    margin-top: 0px;
+}
+.container a {
+    font-size: 8px;
+    margin: 0 0 0;
+}
+.container button {
+    font-size: 8px;
+    padding: 8px 30px;
+    margin-top: 8px;
+}
+.container input {
+    width: auto;
+    font-size: 10px;
+    padding: 6px 10px;
+}
+.hcd{
+    font-size: 25px;
+    text-align: center;
+}
+.social-icons a {
+    width: 20px;
+    height: 25px;
+}
+#toggleStyles {
+    font-size: 25px;
+    padding: 5px;
+}
+}
